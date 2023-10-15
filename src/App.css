@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Minion Web";
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  scroll-behavior: smooth;
+}
+
+/* Responsive Code starts here  */
+
+@media (min-width: 400px) and (max-width: 900px) {
+  
+  .datamain{
+    flex-direction: column;
+  }
+
+}
+
+
+.communitiesmaindiv{
+  /* height: 80vh; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background-color: rgb(87, 20, 20); */
+}
+
+.datamain{
+  height: 100%;
+  /* width: 100%; */
+  /* background-color: purple; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.itemdiv{
+  height: 650px;
+  width: 500px;
+  background-color: rgb(255, 255, 255);
+  /* padding: 25px; */
+  margin:60px 40px;
+  text-align: start;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.Image{
+  height:350px;
+  width: 500px;
+}
+
+.Image img{
+  height: 100%;
+  width: 100%;
+}
+.text{
+  margin:10px 25px;
+}
+.text h3{
+  color: rgb(152, 145, 145);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 20px
+}
+
+h1{
+  color: rgb(101, 97, 97);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 450;
+  font-size: 50px;
+  text-align: center;
+}
+h2{
+  color: rgb(101, 97, 97);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 450;
+  font-size: 35px;
+  background-color: rgb(243, 245, 246);
+  padding:30px 25px;
+
+}
+
+.servicesmain{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+text-align: center;
+}
+
+.swer{
+  /* position: relative; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
